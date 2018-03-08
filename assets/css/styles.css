@@ -22,16 +22,38 @@ body {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+.col {
+    margin: 10px;
+}
 .col-md-4 {
     background-color: #ccc;
     border: 2px #111 solid;
     padding: 20px;
+    text-align: center;
 }
+.wins {
+    background-color: #ccc;
+    border: 2px #111 solid;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    height: 40%;
+}
+.losses{
+
+    background-color: #ccc;
+    border: 2px #111 solid;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    height: 40%;
+}
+
 
 /* Text Styling */
 h1 {
     font-family: 'Vibur', cursive;
     text-align: center;
-    font-size: 7vw;
+    font-size: 8vw;
     color: #eee;
 }
