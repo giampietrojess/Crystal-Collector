@@ -7,7 +7,7 @@ var previous = 0;
 // Create a game with four crystals that have a random value 
 
 var resetAndStart = function () {
-    $(".crystals").empty();
+    $(".crystalbox").empty();
 
     random_result = Math.floor(Math.random() * 101 ) + 19;
     $("#result").html(random_result);
@@ -29,6 +29,9 @@ var resetAndStart = function () {
         $(".crystalbox").append(crystals)
 
     }
+
+    $("#previous").html(previous);
+
 }    
 resetAndStart();
 
@@ -40,6 +43,7 @@ $(document).on('click', ".crystals", function() {
     var num =  parseInt($(this).attr('data-random'));
     // Take the previous number and add it to the current number
     previous += num;
+    $("#previous").html(previous);
     // If the previous number is greater than the random result, add loss
     if(previous > random_result){
         losses++;
