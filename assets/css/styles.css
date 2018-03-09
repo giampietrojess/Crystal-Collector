@@ -4,21 +4,25 @@ body {
     background-position: 0px;
     background-color: #000;
     background-attachment: fixed;
+    width: 100%;
+    height: 100%;
 
 }
 .container {
     margin: 50px auto;
+    width: 100%;
 }
 .crystalbox {
-    border: 0px pink solid;
+    margin-top: -30px;
+    margin-left: 40px;
 }
 
 .crystals {
     
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     border: 0px yellow solid;
-    margin: auto 30px;
+    margin: auto 20px;
     float: left;
     align-content: center;
 
@@ -30,9 +34,6 @@ body {
     -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-}
-.col {
-    margin: 10px;
 }
 .main {
     background-color: #ccc;
@@ -46,8 +47,7 @@ body {
     border: 2px #111 solid;
     padding: 20px;
     text-align: center;
-    margin-top: 50px;
-    height: 40%;
+    margin: 0 10px;
 }
 .losses{
 
@@ -55,8 +55,8 @@ body {
     border: 2px #111 solid;
     padding: 20px;
     text-align: center;
-    margin-top: 50px;
-    height: 40%;
+    margin: 0 10px;
+
 }
 
 
