@@ -4,6 +4,7 @@ var losses = 0;
 var images = ['assets/images/Crystal1.png', 'assets/images/Crystal2.png', 'assets/images/Crystal3.png', 'assets/images/Crystal4.png'];
 var previous = 0;
 
+
 // Create a game with four crystals that have a random value 
 
 var resetAndStart = function () {

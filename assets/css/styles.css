@@ -1,3 +1,4 @@
+
 body {
     background-image: url("../images/background.png");
     background-repeat: repeat;
@@ -18,7 +19,7 @@ body {
 }
 
 .crystals {
-    
+    width: 100%;
     width: 220px;
     height: 220px;
     border: 0px yellow solid;
@@ -67,3 +68,6 @@ h1 {
     font-size: 8vw;
     color: #eee;
 }
+
+/* Attempt to Add Sound  */
+
